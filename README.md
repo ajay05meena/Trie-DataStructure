@@ -16,3 +16,7 @@ for ex.
 so it is required less number of char and it takes less look up time also .
 
 I am going to first try to implement trie than will do many exercise upon the built tree.
+
+step: 1 I started with simple node class that have two class fields one holds the char of node(ex. 'a','b') and other one holds the list of childrens . In the node class also implemented print,add,count fun for basic utils of node class.
+
+step:2 I created another class trie that holds trie structure with node root. I started with one string.Adding one string is a very simple job just iterate through string and add char as child . But adding second string is a little complex
